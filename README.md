@@ -41,10 +41,6 @@ public/ # Static files
 package.json
 README.md
 
-Installation & Setup
-Clone the repository
-git clone https://github.com/your-username/fiber-optic-simulator.git
-
 cd fiber-optic-simulator
 Install dependencies
 npm install
@@ -52,13 +48,8 @@ Run the project
 npm run dev
 Open in browser
 http://localhost:3000
-Tech Stack
 
 Frontend: React.js, Tailwind CSS
 Backend: Node.js, Express.js
 Visualization: Chart.js / D3.js
 Simulation Logic: JavaScript
-
-
-
-If you want, I can next make a high-scoring college version (with abstract, objective, outcome) 👍
