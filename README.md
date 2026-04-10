@@ -1,16 +1,64 @@
-# React + Vite
+Fiber Optic Communication Simulator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, interactive web-based simulator designed to visualize and understand the principles of fiber optic communication. This project helps students and enthusiasts explore how light signals transmit data through optical fibers with real-time simulations and graphical insights.
 
-Currently, two official plugins are available:
+Features
+Signal Transmission Simulation
+Visualize how data travels through optical fibers using light pulses
+Laser Diode Simulation
+Understand how optical signals are generated
+PIN Photodiode Detection
+Simulate how optical signals are converted back into electrical signals
+Real-time Graphs
+Analyze signal strength, attenuation, and noise
+Interactive Controls
+Adjust parameters like distance, attenuation, signal power, and noise level
+Modern UI
+Clean and professional interface designed for clarity and usability
+Concepts Covered
+Fiber Optic Communication Basics
+Total Internal Reflection
+Signal Attenuation
+Optical Transmitters (Laser Diodes)
+Optical Receivers (PIN Diodes)
+Noise and Signal Distortion
+Project Structure
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+fiber-optic-simulator/
 
-## React Compiler
+client/ # Frontend (React / UI)
+components/
+pages/
+styles/
+App.js
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+server/ # Backend (Node.js / API)
+routes/
+controllers/
+server.js
 
-## Expanding the ESLint configuration
+public/ # Static files
+package.json
+README.md
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Installation & Setup
+Clone the repository
+git clone https://github.com/your-username/fiber-optic-simulator.git
+
+cd fiber-optic-simulator
+Install dependencies
+npm install
+Run the project
+npm run dev
+Open in browser
+http://localhost:3000
+Tech Stack
+
+Frontend: React.js, Tailwind CSS
+Backend: Node.js, Express.js
+Visualization: Chart.js / D3.js
+Simulation Logic: JavaScript
+
+
+
+If you want, I can next make a high-scoring college version (with abstract, objective, outcome) 👍
